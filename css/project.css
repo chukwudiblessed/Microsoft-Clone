@@ -1,0 +1,443 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.main{
+    background-color:rgb(255, 254, 254);
+    width: 100%;
+    height: 591px;
+    
+}
+
+.nav{
+    width:100%;
+    height: 70px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    /* background-color: green; */
+}
+.logo {
+    /* background-color: rgb(167, 68, 1); */
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    height: 30px;
+    margin: 0px 15px; 
+    font-size: 23px;
+}
+
+.link{
+    display: flex;
+    flex: 1;
+    /* background-color: greenyellow; */
+} 
+
+.item{
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center; 
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 0px 9px;
+    transform: scale(1);
+    transition: all 500ms;
+
+}
+
+.item:hover{
+    transform:scale(0.9) ;
+    color: rgb(105, 105, 105);
+    }
+
+.account{   
+color: black;
+display: flex;
+align-items: center;
+margin-right: 0px;
+font-weight: bold;
+}
+
+.Microsoft,
+.char,
+.sign{
+    display: flex;
+    transform: scale(1);
+    transition: all 300ms;
+}
+
+.Microsoft:hover,
+.char:hover,
+.sign:hover{
+transform: scale(0.9);
+color: rgb(105, 105, 105);
+}
+
+.Microsoft span,
+.char span,
+.sign{
+    margin: 0px 5px;
+    cursor: pointer;
+}
+
+.move,
+.Search img,
+.char img{
+    margin:0px 5px;
+}
+.Search{
+    display: flex;
+    cursor: pointer;
+    transform: scale(1);
+    transition: all 300ms;
+ }
+
+ .Search:hover{
+    transform: scale(0.9);
+    color: rgb(105, 105, 105);
+ }
+
+.Search span{
+    
+    margin: 0px 5px;
+    /* cursor: pointer; */
+}
+    
+
+.Search img{
+    width: 10px;
+    height: 18px;
+}    
+
+.char img{
+width: 25;
+height: 17.10px;
+}
+
+
+.sign img{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width:23px;
+    margin: 0% 5px;
+}
+
+.laptop{
+    width: 100%;
+    height: 450px;
+    /* background-color: rgb(168, 167, 167); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.BackDrop{
+    margin: 100px;
+    width: 100%;
+    height: 450px;
+    background-image: url(../img/surface_pro.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-clip: border-box;
+}
+
+
+
+.text{
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 150px;
+    margin-left: 40px;
+    font-weight: bold;
+}
+.text1{
+    font-size: 20px;
+    margin: 0px 40px;
+}
+
+.shop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: black;
+    width: 110px;
+    height: 30px;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0px 40px;
+    margin-top: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    transform: scale(1);
+    transition: all 1000ms;
+}
+
+.shop:hover{
+transform: scale(0.9);
+color: silver;
+background-color: brown;
+}
+
+.icon{
+    width: 100%;
+    display: flex;
+    height: 100px;
+    /* background-color:greenyellow ; */
+    justify-content: center;
+}
+
+.place{
+    margin-top: 50px;
+    width: 80%;
+    height: 90px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+}
+.windows{
+    /* background-color: yellow;  */
+    margin: 0px 20px;
+}
+    
+    .windows img{
+        margin: 0px 30px;
+    }
+    
+    .windows p{
+        text-align: center;
+        font-size: 15px;
+        height: 40px;
+    }
+    .windows2{
+         /* background-color: violet;  */
+        margin: 0px 20px;
+    }
+    
+    .windows2 p{
+        text-align: center;
+        font-size: 15px;
+        height: 40px; 
+        margin-left: 25px;
+
+    }
+    
+    .windows2 img{
+        margin: 0px 30px;
+    }
+    .windows3{
+        /* background-color: violet; */
+        margin: 0px 20px;
+        
+        }
+        
+        .windows3 img{
+            margin: 0px 30px;
+        
+        }
+        
+        .windows3 p{
+            display: flex;
+            text-align: center;
+            font-size: 15px;
+            height: 40px;
+        }
+
+        .windows4{
+            /* background-color: violet; */
+            margin: 0px 20px;
+        }
+
+        .windows4 img{
+            margin: 0px 30px;
+        
+        }
+        
+        .windows4 p{
+            font-size: 15px;
+            height: 40px;
+        }
+
+        .windows5{
+            /* background-color: violet; */
+            margin: 0px 20px;
+            
+        }
+        
+        .windows5 p{
+            text-align: center;
+            font-size: 15px;
+            height: 40px; 
+            margin-left: 25px;
+        }
+        
+        .windows5 img{
+            margin: 0px 30px;
+        }
+
+        .stage{
+            width: 100%;
+            display: flex;
+            /* background-color: violet; */
+            height: 300px;
+            justify-content: center;
+            margin-top: 70px;
+        }
+
+        .stage_1{
+            width: 80%;
+            height: 250px;
+            /* background-color: aqua; */
+            display: flex;
+            /* margin: 10px 70px; */
+            justify-content: center;
+                     }
+    
+         
+
+        .stage1 img{
+            margin: 0px 20px;
+            width: 230;
+            height: 130px; 
+    } 
+
+    .stage1 h5, p{
+        font-size: 15px;
+        display: flex;
+        justify-content: left;
+        margin-left: 20px;
+      
+    }
+                
+    .stage2 img{
+        /* background-color: gold; */
+        display: flex;
+        margin: 0px 20px;
+    width: 230px;
+    height: 130px;
+    } 
+
+.stage2 h5{
+    display: flex;
+    justify-content: left;
+    margin-left: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ 
+.stage2 h4{
+    background-color: gold;
+    width: 40px;
+    height: 20px;
+  display: flex;
+  justify-content: center;
+  margin-left: 20px;
+}
+
+ .stage3 img{
+     margin: 0px 20px;
+    width: 230px;
+    height: 130px;
+ }
+ .stage3 h5{
+    margin-left: 20px;  
+ }
+
+ .stage4 img{
+     margin: 0px 20px;
+    width: 230px;
+    height: 130px;
+ }
+
+ .stage p{
+    margin-left: 20px; 
+ }
+
+ .BackDrop2{
+    margin: 100px;
+    width: 100%;
+    height: 450px;
+    background-image: url(../img/ms_edge.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-clip: border-box;
+}
+
+.covid{
+    width: 100%;
+    height: 100px;
+    /* background-color: indianred; */
+    display: flex;
+    justify-content: center;
+}
+
+.covid19{
+    background-color: rgb(184, 190, 192);
+    width: 70%;
+    height: 100px;
+}
+
+.covid19 h5{
+    display: flex;
+   justify-content: center;
+   margin-top: 15px;
+}
+
+.covid19 p{
+display: flex;
+margin-top: 10px;
+justify-content: center;
+font-size: 15px;
+}
+
+.response{
+    display: flex;
+    justify-content: center;
+     font-size: 30px;
+     font-family: 'Segoe UI'; 
+}
+
+.laptop3{
+    width: 100%;
+    height: 450px;
+    /* background-color: rgb(168, 167, 167); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item3{
+    width: 100%;
+    height: 400px;
+    background-image: url(../img/xbox.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-clip: border-box;
+}
+
+.last{
+    width: 100%;
+    height: 150px;
+    /* background-color: rgb(160, 160, 160); */
+    display: flex;
+    justify-content: center;
+align-items:center;
+}
+
+.final{
+    display: flex;
+    background-color: rgb(233, 232, 232);
+    width:100%;
+    height: 100px;
+}
+
+.word{
+    display: flex;
+    margin: 0px 55px;
+   
+}
